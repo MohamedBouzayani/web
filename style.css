@@ -2,20 +2,43 @@ body {
     width: 95%;
     margin: 0 auto;
     font-size: 1.2rem;
-    font-family: sans-serif;
+    font-family: monospace;
+    background-color: #031540;
+    color: #031540;
+    text-align: end;
   }
   header {
-    background-color: aqua;
+    background-color: #031540;
     border-radius: 5%;
      padding: 1%;
      text-align: end;
 
   }
+  h1{
+ 
+  }
+  .div1{
+    background-color: #ffffff;
+    padding-right:200px ;
+    width: 20%;
+  }
+  .img{
+
+    background-color: #031540;
+    padding-right:100px ;
+    padding-left: 100px;
+  }
   img {
-    border-radius: 100%;
+    position: sticky;
+    top: 0px;
+    bottom: 250px;
+    background-color: #ffffff;
+    border-radius: 10%;
   }
   .about {
+    background-color: #031540;
     margin-left: 10%;
+    color: #ffffff;
   }
   p {
     line-height: 1.4;
@@ -26,14 +49,15 @@ body {
     text-decoration: none;
     padding: 2px 1px 0;
     margin-left: 7%;
+    color: #ffffff;
   }
   
   a:link {
-    color: #265301;
+    color: #ffffff;
   }
   
   a:visited {
-    color: #437a16;
+    color: #ffffff;
   }
   
   a:focus {
@@ -43,27 +67,15 @@ body {
   
   a:hover {
     border-bottom: 1px solid;
-    background: #cdfeaa;
+   color: #00abf0;
   }
   
   a:active {
     background: #265301;
-    color: #cdfeaa;
+    color: #ffffff;
   }
   #pageContent1{
-    max-width: 40%;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    margin-left: 30%;
-text-align: center;
-border: 1px solid;
-background-color: aliceblue;
-border-radius: 2%;
-
-
-  }
-  #pageContent4{
-    max-width: 30%;
+    max-width: 90%;
     padding-bottom: 30px;
     padding-top: 30px;
     margin-left: 5%;
@@ -74,11 +86,25 @@ border-radius: 2%;
 
 
   }
+  #pageContent4{
+    max-width: 90%;
+    padding-bottom: 50px;
+    padding-top: 0px;
+    margin-left: 5%;
+text-align: center;
+border: 1px solid;
+background-color: aliceblue;
+border-radius: 2%;
+color: #031540;
+
+
+
+  }
   #pageContent2{
-    max-width: 30%;
+    max-width: 90%;
     padding-bottom: 30px;
     padding-top: 30px;
-    margin-left: 35%;
+    margin-left: 5%;
 text-align: center;
 border: 1px solid;
 background-color: aliceblue;
@@ -87,10 +113,10 @@ border-radius: 2%;
 
   }
   #pageContent{
-    max-width: 20%;
+    max-width: 40%;
     padding-bottom: 30px;
     padding-top: 30px;
-    margin-left: 40%;
+    margin-left: 30%;
 text-align: center;
 border: 1px solid;
 background-color: aliceblue;
